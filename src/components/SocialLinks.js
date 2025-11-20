@@ -9,6 +9,7 @@ function SocialLinks({ location }) {
             href={socialLink.href}
             target="_blank"
             className={location + "-icon"}
+            rel="noreferrer"
           >
             <i className={socialLink.icon}></i>
           </a>
